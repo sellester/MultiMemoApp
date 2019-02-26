@@ -48,13 +48,13 @@
         </activity>
         <activity
             android:name="org.androidtown.multimemoapp.PenPaletteDialog"
-            android:theme="@android:style/Theme.DeviceDefault.Dialog"
+            android:theme="@style/Theme.AppCompat.Dialog"
             android:screenOrientation="landscape"
             >
         </activity>
         <activity
             android:name="org.androidtown.multimemoapp.ColorPaletteDialog"
-            android:theme="@android:style/Theme.DeviceDefault.Dialog"
+            android:theme="@style/Theme.AppCompat.Dialog"
             android:screenOrientation="landscape"
             >
         </activity>
@@ -76,13 +76,13 @@
         </activity>
         <activity
             android:name="org.androidtown.multimemoapp.VoiceRecordingActivity"
-            android:theme="@style/Theme.AppCompat"
+            android:theme="@style/Theme.AppCompat.Dialog"
             android:screenOrientation="portrait"
             >
         </activity>
         <activity
             android:name="org.androidtown.multimemoapp.VoicePlayActivity"
-            android:theme="@style/Theme.AppCompat"
+            android:theme="@style/Theme.AppCompat.Dialog"
             android:screenOrientation="portrait"
             >
         </activity>
